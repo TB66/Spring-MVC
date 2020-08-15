@@ -14,5 +14,5 @@
 		base-package="com.tb.springmvc"></context:component-scan>
 	<!-- SpringMVC控制器注解驱动标签 -->
 	<mvc:annotation-driven></mvc:annotation-driven>
-
+	<mvc:default-servlet-handler/>
 </beans>
