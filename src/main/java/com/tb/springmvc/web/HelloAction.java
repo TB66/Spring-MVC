@@ -1,4 +1,4 @@
-package com.tb.springmvc;
+package com.tb.springmvc.web;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
