@@ -1,6 +1,10 @@
 package com.tb.springmvc.bean;
 
-public class DmCart {
+public class DmCart implements java.io.Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private Integer uid;
 	private Integer pid;

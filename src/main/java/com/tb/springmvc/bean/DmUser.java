@@ -2,7 +2,11 @@ package com.tb.springmvc.bean;
 
 import java.sql.Timestamp;
 
-public class DmUser {
+public class DmUser implements java.io.Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private String ename;
 	private String cname;

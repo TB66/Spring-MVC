@@ -1,6 +1,10 @@
 package com.tb.springmvc.bean;
 
-public class DmOrderitem {
+public class DmOrderitem implements java.io.Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private Integer count;
 	private Boolean total;

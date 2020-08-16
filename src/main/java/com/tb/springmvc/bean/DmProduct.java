@@ -1,9 +1,8 @@
 package com.tb.springmvc.bean;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class DmProduct implements Serializable{
+public class DmProduct implements java.io.Serializable{
 	/**
 	 * 
 	 */
